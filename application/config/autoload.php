@@ -134,6 +134,4 @@ $autoload['language'] = array();
 */
 $autoload['model'] = array('app', 'tasks', 'entity', 'task');
 
-$autoload['libraries'] = array('parser', 'parsedown','session');
-
-$autoload['third_party'] = array('restful');
+$autoload['libraries'] = array('parser', 'parsedown','session','rest');
