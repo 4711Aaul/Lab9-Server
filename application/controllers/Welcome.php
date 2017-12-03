@@ -30,8 +30,6 @@ class Welcome extends Application {
     
     function render($template = 'template')
     {
-        //$this->data['menubar'] = $this->parser->parse('_menubar', $this->config->item('menu_choices'),true);
-        // use layout content if provided
         $this->parser->parse($this->data['pagebody'], $this->data);
     }
 
