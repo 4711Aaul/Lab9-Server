@@ -50,7 +50,7 @@ class XML_Model extends Memory_Model {
             $record->{"priority"} = $this->validate(intval($attributes['priority']));
             $record->{"size"} = $this->validate(intval($attributes['size']));
             $record->{"group"} = $this->validate(intval($attributes['group']));
-            $record->{"deadline"} = $attributes['deadline'];
+           // $record->{"deadline"} = $attributes['deadline'];
             $record->{"status"} = $this->validate(intval($attributes['status']));
             $record->{"flag"} = $this->validate(intval($attributes['flag']));
             $record->{"id"} = $this->validate(intval($attributes['id']));
